@@ -8,4 +8,7 @@ To rewrite  the commit history ' git rebase -1 HEAD~4' to start new text file fo
 'git log' to check updated commit events. Use 'git log --oneline' for single line update info
 
 .gitignore: add a certain type of file extensions to this  file to keep them out of git tracking setup
+'git rm ' to delete files from directory and log 
+'git mv oldfilename newfilename ' to change name of a file
 
+--Branches and Merging--
