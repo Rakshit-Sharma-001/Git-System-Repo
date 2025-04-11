@@ -1,8 +1,11 @@
 GitPro pdf till Git Basics
-git used to maintain version history.
+
 'git init' to start, check branch via 'branch' and 'switch' for shifting between branches
-Any change made in folder via file edit or adding has to be 'git add .' and then 'git commit -m'Message'' for committing the whole lot
+
+After doing changes in files in repository folder , first we will use 'git add .' to upload all files for git update. To commit , we will use git commit -m'Message'. In case of reversing back to old file and undo changes done to stages but uncommitted file, we will 'git restore --staged .' and 'git restore .' to remove file from staging area and revert back repo file to previous committed version.
+
 To rewrite  the commit history ' git rebase -1 HEAD~4' to start new text file for making changes . Reword will be made against pickup for updating those commit messages. file is saved and closed to update changes in new files opened and saved consecutively. 
 'git log' to check updated commit events. Use 'git log --oneline' for single line update info
+
 .gitignore: add a certain type of file extensions to this  file to keep them out of git tracking setup
-After doing changes in files in repository folder , first we will use 'git add .' to upload all files for git update. To commit , we will use git commit -m'Message'. In case of reversing back to old file and undo changes done to stages but uncommitted file, we will 'git restore --staged .' and 'git restore .' to remove file from staging area and revert back repo file to previous committed version.
+
